@@ -1,0 +1,68 @@
+.wrapper {
+  position: relative;
+  max-inline-size: 100%;
+  padding: 20px;
+  /* border: 10px solid green; */
+}
+
+.player-wrapper {
+  position: absolute;
+  inset: 0;
+  /* opacity: 0.5; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.player {
+  position: relative;
+  /* border: 10px solid red; */
+}
+
+.player video {
+  inline-size: 100%;
+  aspect-ratio: 16/9;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.player-title {
+  color: white;
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 30px;
+}
+
+.player-actions {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.player-progress {
+  position: absolute;
+  z-index: 2;
+  inset-inline: 0;
+  inset-block-end: 0;
+  display: flex;
+  padding: 10px;
+}
+
+.player-progress input {
+  flex: 1;
+}
+
+.player-overlay {
+  opacity: 0;
+  transition: 0.3s opacity;
+}
+
+.player:hover .player-overlay {
+  opacity: 1;
+}
