@@ -7,7 +7,8 @@ body {
   margin: 0;
   overflow: hidden;
 }
-#d26syldxkp30ng.cloudfront.net .main-content {
+
+.main-content {
   height: 100vh;
   width: 100vw;
   position: absolute;
