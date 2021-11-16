@@ -1,7 +1,8 @@
 .wrapper {
   position: relative;
-  max-inline-size: 100%;
-  padding: 20px;
+  padding: 50px;
+  max-inline-size: 1480px;
+
   /* border: 10px solid green; */
 }
 
